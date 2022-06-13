@@ -7,7 +7,10 @@ pdf:
 html:
 	pandoc \
 		-f markdown resume.md \
-		-o out/resume.html
+		-o tmp.html
+	sed -e "/CONTENT/ r tmp.html" -e s/CONTENT// _template.html > index.html
+	rm tmp.html
+
 
 docx:
 	pandoc \
