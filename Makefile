@@ -1,3 +1,5 @@
+.DEFAULT_GOAL := all 
+
 pdf:
 	pandoc \
 		--pdf-engine=xelatex \
