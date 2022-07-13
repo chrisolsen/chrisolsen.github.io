@@ -22,3 +22,5 @@ readme:
 		-f markdown resume.md \
 		-o README.md
 	sed '/^```/,/^```/ d' README.md > temp && mv temp README.md
+
+all: pdf html readme docx
