@@ -4,7 +4,7 @@ applications from concept to completion and optimizing existing apps.
 ## Skills
 
 Programming
-:   Go, TypeScript, React, Svelte
+:   Go, TypeScript, React, Svelte, Elm
 
 Databases
 :   PostgreSQL, MySql, Sqlite3
@@ -14,11 +14,11 @@ Learning
 
 ## Experience
 
-**Sr Software Developer @ Alberta Government** *Sept 2020 - Present*
+**Sr Software Developer @ Goverment of Alberta** *Sept 2020 - Present*
 
--   Created [component
-    library](https://github.com/GovAlta/ui-components/tree/alpha) for
-    the Alberta Government.
+-   Created
+    [UI-Component](https://github.com/GovAlta/ui-components/tree/alpha)
+    library for other dev teams at the provincial government.
 -   Designed and developed core services made available to other teams.
 -   *Typescript, React, Svelte, Angular, Jest, MongoDB, Storybook*
 
@@ -36,10 +36,12 @@ Pharmacists** *July 2017 - August 2018*
 -   Identified and fixed application usability and security
     deficiencies.
 -   Created UI designs for next version of the application.
--   Developed Elm.js application to export ServiceNow data to Quickbooks
+-   Developed Elm application to export ServiceNow data to Quickbooks
     .iif format.
 -   Implemented data migration CLI that optimized existing migration
     times to ServiceNow from over 5 hours to a few minutes.
+-   Created Elm application to convert old quickbook data type to csv
+    files
 -   *Elm, Node.js, AngularJS, ServiceNow, MSSQL*
 
 **Software Developer (1 month contract) @ Ledcor** *July 2017 - August
@@ -105,6 +107,23 @@ Pharmacists** *July 2017 - August 2018*
     errors and allowed them to be corrected online instead of manually.
 -   Increased the speed of the process scan errors more than 100 times.
 -   *VB.NET Win32, MSSQL*
+
+## Personal Projects
+
+[Woddy](https://gitlab.com/chrisolsen/woddy)
+:   Workout of the day app tracker. *Elm, Go, AppEngine*
+
+[MathOps](https://github.com/chrisolsen/mathops_android)
+:   Allows kids to practice their basic math skills and tracks their
+    progress over time. *Android*
+
+[LeagueSmart](https://bitbucket.org/chrisolsen/leaguesmart)
+:   Created game schedules and provided score/stat entry. *RubyOnRails,
+    MySql*
+
+[Online Listings](https://bitbucket.org/chrisolsen/onlinelistings)
+:   Allowed real-estate agents to create personal sites. *RubyOnRails,
+    MySql*
 
 ## Education
 
