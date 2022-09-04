@@ -4,14 +4,84 @@
     <title>Chris Olsen - Web Developer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
     <style>
+      :root {
+        --color-gray: #F4F4F9;
+      }
+
+      body {
+        font-family: 'Nunito Sans', sans-serif;
+        margin: 0;
+      }
+
+      a,
+      a:visited {
+        color: #0075A2;
+      }
+
       header {
         text-align: center;
+        margin-bottom: 1rem;
+
+        background-color: var(--color-gray);
+        padding: 2rem;
       }
+
+      header p {
+        font-weight: 600;
+      }
+
+      header::after {
+        display: block;
+        inset: 0;
+        background: url(./assets/wave-bg.svg) center center no-repeat;
+        height: 100px;
+        margin-bottom: -125px;
+        margin-left: -2rem;
+        margin-right: -2rem;
+        content: "";
+      }
+
       main {
-        max-width: 80ch;
-        margin: auto;
-      } 
+        padding: 1rem;
+      }
+
+      main > section {
+        flex: 1 1 auto;
+      }
+      aside {
+        flex: 0 0 30ch;
+        padding: 1rem;
+      }
+      aside ul {
+        padding-left: 1rem;
+      }
+      aside li {
+        padding-bottom: 0.5rem;
+      }
+      aside dt {
+        font-weight: bold;
+      }
+      aside dd {
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      @media (min-width: 640px) {
+        main {
+          display: flex;
+          max-width: 120ch;
+          margin: auto;
+        }
+      }
+      @media print {
+        aside,
+        .pagebreak { 
+          page-break-before: always; 
+        } 
+      }
     </style>
   </head>
   <body>
@@ -20,8 +90,11 @@
       <div><a href="https://github.com/chrisolsen">github.com/chrisolsen</a></div>
       <div><a href="mailto:chris@chrisolsen.org">chris@chrisolsen.org</a></div>
       <div>+1 (780) 888-2008</div>
+      <p>
+        Web Developer with +15 years of experience in creating customized applications from concept to completion.
+      </p>
     </header> 
-    <main>
+    <main>      
       CONTENT      
     </main>
   </body>

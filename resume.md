@@ -13,21 +13,11 @@ colorlinks: true
 \\ \footnotesize https://github.com/chrisolsen
 \\ chris@chrisolsen.org
 \\ +1 (780) 887-2008
+\\ ---
+\\ \normalsize Web Developer with +15 years of experience in creating customized applications from concept to completion. 
 \end{center}
 
-Web Developer with +15 years of experience in creating customized applications from concept to completion and optimizing existing apps. 
-
-## Skills
-
-Programming
-: Go, TypeScript, React, Svelte, Elm
-
-Databases
-: PostgreSQL, MySql, Sqlite3 
-
-Learning
-: Elixir, Phoenix
-
+<section id="main">
 
 ## Experience
 
@@ -64,6 +54,8 @@ Learning
 * *AngularJS, Gulp*
 
 
+<div class="pagebreak"></div>
+
 
 **Sr Frontend Web Developer @ Showbie** *April 2014 - May 2016*
 
@@ -79,9 +71,6 @@ Learning
 * Optimized web applications created by bought-out companies (reduced response times from > 2min to less than 5 seconds).
 * Server and deployment setup for existing applications.
 * *Ruby on Rails, Nginx, MySql, PHP*
-
-
-\pagebreak
 
 
 **Android Developer | Architect @ Drivewyze** *2010 - 2011*
@@ -123,6 +112,29 @@ Learning
 * Increased the speed of the process scan errors more than 100 times.
 * *VB.NET Win32, MSSQL*
 
+</section>
+
+<aside>
+## Skills
+
+Programming
+: Go, TypeScript, React, Svelte, Elm
+
+Databases
+: PostgreSQL, MySql, Sqlite3 
+
+Learning
+: Elixir, Phoenix
+
+
+## Education
+
+* Udacity Intro to Self Driving Cars
+* Udacity Android Developer Nanodegree
+* Northern Alberta Institute of Technology
+* University of Alberta: BSc Chemistry with Specialization
+
+
 ## Personal Projects
 
 [Woddy](https://gitlab.com/chrisolsen/woddy)
@@ -136,11 +148,4 @@ Learning
 
 [Online Listings](https://bitbucket.org/chrisolsen/onlinelistings)
 : Allowed real-estate agents to create personal sites. *RubyOnRails, MySql*
-
-## Education
-
-* Udacity Intro to Self Driving Cars
-* Udacity Android Developer Nanodegree
-* Northern Alberta Institute of Technology
-* University of Alberta: BSc Chemistry with Specialization
-
+</aside>
