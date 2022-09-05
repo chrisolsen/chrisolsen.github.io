@@ -46,15 +46,13 @@ colorlinks: true
 * Created Elm application to convert old quickbook data type to csv files
 * *Elm, Node.js, AngularJS, ServiceNow, MSSQL*
 
+<div class="pagebreak"></div>
 
 **Software Developer (1 month contract) @ Ledcor** *July 2017 - August 2017*
 
 * Created a deployment system that decreased deployment time from 10 minutes to a few seconds.
 * Reduced total application size by ~90%.
 * *AngularJS, Gulp*
-
-
-<div class="pagebreak"></div>
 
 
 **Sr Frontend Web Developer @ Showbie** *April 2014 - May 2016*
@@ -97,6 +95,8 @@ colorlinks: true
 * Completed the SCADA drag n’ drop interface that provided users that ability to monitor various on-site sensors.
 * *jQuery, ASP.NET, Oracle*
 
+
+<div class="pagebreak"></div>
 
 
 **System Analyst II @ Alberta Education** *2005 - 2007*
