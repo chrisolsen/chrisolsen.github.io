@@ -111,7 +111,7 @@ section.job p {
 
 section.job .tools {
   padding: 0;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 section.job .tools li {
