@@ -168,13 +168,13 @@ section#skills progress::-webkit-progress-value {
   body {
     display: block;
   }
-  progress {
+  dd, progress {
     display: none;
   }
-  dl {
-    display: inline-block;
+  dt {
+    display: inline;
   }
-  section.job {
+  section.job, section#skills, section#education {
     break-inside: avoid;
   }
 }
