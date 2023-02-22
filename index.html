@@ -1,263 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Chris Olsen - Web Developer</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-      :root {
-        --color-gray: #F4F4F9;
-      }
 
-      body {
-        font-family: 'Nunito Sans', sans-serif;
-        margin: 0;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Chris Olsen</title>
+</head>
 
-      a,
-      a:visited {
-        color: #0075A2;
-      }
+<body>
+  <header id="my-info">
+    <h1>Chris Olsen</h1>
+    <address>
+      <a href="mailto:chris@chrisolsen.org">chris@chrisolsen.org</a>
+      <a href="tel:+1780-998-2008">+1 780-887-2008</a>
+    </address>
+  </header>
 
-      header {
-        text-align: center;
-        margin-bottom: 1rem;
-
-        background-color: var(--color-gray);
-        padding: 2rem;
-      }
-
-      header p {
-        font-weight: 600;
-      }
-
-      header::after {
-        display: block;
-        inset: 0;
-        background: url(./assets/wave-bg.svg) center center no-repeat;
-        height: 100px;
-        margin-bottom: -125px;
-        margin-left: -2rem;
-        margin-right: -2rem;
-        content: "";
-      }
-
-      main {
-        padding: 1rem;
-      }
-
-      main > section {
-        flex: 1 1 auto;
-      }
-      aside {
-        flex: 0 0 30ch;
-        padding: 1rem;
-      }
-      aside ul {
-        padding-left: 1rem;
-      }
-      aside li {
-        padding-bottom: 0.5rem;
-      }
-      aside dt {
-        font-weight: bold;
-      }
-      aside dd {
-        margin-left: 1rem;
-        margin-bottom: 0.5rem;
-      }
-      @media (min-width: 640px) {
-        main {
-          display: flex;
-          max-width: 120ch;
-          margin: auto;
-        }
-      }
-      @media print {
-        .pagebreak { 
-          page-break-before: always; 
-        } 
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Chris Olsen</h1> 
-      <div><a href="https://github.com/chrisolsen">github.com/chrisolsen</a></div>
-      <div><a href="mailto:chris@chrisolsen.org">chris@chrisolsen.org</a></div>
-      <div>+1 (780) 887-2008</div>
+  <main>
+    <section id="summary">
+      <h2>Why hire me?</h2>
       <p>
-        Web Developer with +15 years of experience in creating customized applications from concept to completion.
+        I have more than <b>15</b> years of experience in creating applications from concept to completion...the only way
+        you can do it for this long is if you love what you do. I love it because learning new things is a requirement,
+        and allows one to improve themselves everyday.
       </p>
-    </header> 
-    <main>      
-            
-<section id="main">
-<h2 id="experience">Experience</h2>
-<p><strong>Sr Software Developer @ Goverment of Alberta</strong>
-<em>Sept 2020 - Present</em></p>
-<ul>
-<li>Created <a
-href="https://github.com/GovAlta/ui-components/tree/alpha">UI-Component</a>
-library for other dev teams at the provincial government.</li>
-<li>Designed and developed core services made available to other
-teams.</li>
-<li><em>Typescript, React, Svelte, Angular, Jest, MongoDB,
-Storybook</em></li>
-</ul>
-<p><strong>Sr Software Developer @ CenturyLink</strong> <em>Dec 2018 -
-July 2020</em></p>
-<ul>
-<li>Helped to add disaster recovery functionality allowing for system
-recovery to CenturyLink, AWS or Azure cloud instances.</li>
-<li>Worked on Cloud Application Manager analytics backend and rewrote
-the testing component to allow for faster and selective testing.</li>
-<li><em>Java, Spring Boot, AngularJS, Python, Cypress, Docker,
-MongoDB</em></li>
-</ul>
-<p><strong>Software Developer (1 year contract) @ Alberta College of
-Pharmacists</strong> <em>July 2017 - August 2018</em></p>
-<ul>
-<li>Identified and fixed application usability and security
-deficiencies.</li>
-<li>Created UI designs for next version of the application.</li>
-<li>Developed Elm application to export ServiceNow data to Quickbooks
-.iif format.</li>
-<li>Implemented data migration CLI that optimized existing migration
-times to ServiceNow from over 5 hours to a few minutes.</li>
-<li>Created Elm application to convert old quickbook data type to csv
-files</li>
-<li><em>Elm, Node.js, AngularJS, ServiceNow, MSSQL</em></li>
-</ul>
-<div class="pagebreak">
+    </section>
 
-</div>
-<p><strong>Software Developer (1 month contract) @ Ledcor</strong>
-<em>July 2017 - August 2017</em></p>
-<ul>
-<li>Created a deployment system that decreased deployment time from 10
-minutes to a few seconds.</li>
-<li>Reduced total application size by ~90%.</li>
-<li><em>AngularJS, Gulp</em></li>
-</ul>
-<p><strong>Sr Frontend Web Developer @ Showbie</strong> <em>April 2014 -
-May 2016</em></p>
-<ul>
-<li>Developed web application replicating the existing iOS application
-for the web.</li>
-<li>Created web application which allowed school districts to manage
-teacher licenses.</li>
-<li>Built Go utility to convert .po files supplied by the translating
-service to the custom locale format required for Android, web and
-iOS.</li>
-<li><em>Ember.js, Go</em></li>
-</ul>
-<p><strong>Software Developer @ Mitre Media</strong> <em>2011 -
-2012</em></p>
-<ul>
-<li>Optimized web applications created by bought-out companies (reduced
-response times from &gt; 2min to less than 5 seconds).</li>
-<li>Server and deployment setup for existing applications.</li>
-<li><em>Ruby on Rails, Nginx, MySql, PHP</em></li>
-</ul>
-<p><strong>Android Developer | Architect @ Drivewyze</strong> <em>2010 -
-2011</em></p>
-<ul>
-<li>Promoted to Architect after less than a year.</li>
-<li>Designed and developed Android application allowing semi drivers to
-receive bypass notifications from weigh stations.</li>
-<li>Responsible for creating and documenting logic for mobile devices
-and backend API.</li>
-<li>UI design for all mobile platforms</li>
-<li><em>Java, Android, Sqlite3</em></li>
-</ul>
-<p><strong>Full-stack Developer @ Minigroup</strong> <em>2010</em></p>
-<ul>
-<li>Worked on the backend server logic and frontend jQuery</li>
-<li>Created search module to allow users to find notes, links and/or
-assets</li>
-<li><em>Ruby on Rails, jQuery, MySql</em></li>
-</ul>
-<p><strong>Software Contractor @ Zedi</strong> <em>2008 - 2010</em></p>
-<ul>
-<li>Successfully completed a scalability project which gave the site the
-ability to handle increased user load.</li>
-<li>Completed the SCADA drag n’ drop interface that provided users that
-ability to monitor various on-site sensors.</li>
-<li><em>jQuery, ASP.NET, Oracle</em></li>
-</ul>
-<div class="pagebreak">
+    <section id="work-history">
+      <h2>Work History</h2>
 
-</div>
-<p><strong>System Analyst II @ Alberta Education</strong> <em>2005 -
-2007</em></p>
-<ul>
-<li>Created web application that allowed special requests to be made and
-processed online.</li>
-<li><em>ASP.NET, VB.NET, MSSQL</em></li>
-</ul>
-<p><strong>Software Developer (Intern) @ Alberta Education</strong>
-<em>2005</em></p>
-<ul>
-<li>Developed in-house application that allowed flagged exams with scan
-errors and allowed them to be corrected online instead of manually.</li>
-<li>Increased the speed of the process scan errors more than 100
-times.</li>
-<li><em>VB.NET Win32, MSSQL</em></li>
-</ul>
-</section>
-<aside>
-<h2 id="skills">Skills</h2>
-<dl>
-<dt>Programming</dt>
-<dd>
-Go, TypeScript, React, Svelte, Elm
-</dd>
-<dt>Databases</dt>
-<dd>
-PostgreSQL, MySql, Sqlite3
-</dd>
-<dt>Learning</dt>
-<dd>
-Elixir, Phoenix
-</dd>
-</dl>
-<h2 id="education">Education</h2>
-<ul>
-<li>Udacity Intro to Self Driving Cars</li>
-<li>Udacity Android Developer Nanodegree</li>
-<li>Northern Alberta Institute of Technology</li>
-<li>University of Alberta: BSc Chemistry with Specialization</li>
-</ul>
-<h2 id="personal-projects">Personal Projects</h2>
-<dl>
-<dt><a href="https://gitlab.com/chrisolsen/woddy">Woddy</a></dt>
-<dd>
-Workout of the day app tracker. <em>Elm, Go, AppEngine</em>
-</dd>
-<dt><a
-href="https://github.com/chrisolsen/mathops_android">MathOps</a></dt>
-<dd>
-Allows kids to practice their basic math skills and tracks their
-progress over time. <em>Android</em>
-</dd>
-<dt><a
-href="https://bitbucket.org/chrisolsen/leaguesmart">LeagueSmart</a></dt>
-<dd>
-Created game schedules and provided score/stat entry. <em>RubyOnRails,
-MySql</em>
-</dd>
-<dt><a href="https://bitbucket.org/chrisolsen/onlinelistings">Online
-Listings</a></dt>
-<dd>
-Allowed real-estate agents to create personal sites. <em>RubyOnRails,
-MySql</em>
-</dd>
-</dl>
-</aside>
-    </main>
-  </body>
+      <section class="job">
+        <header>
+          <h3>Sr. Software Developer <span class="date">09/2020 to current</span></h3>
+          <h4>Government of Alberta <span class="location">Edmonton</span></h4>
+        </header>
+        <p>
+
+        </p>
+        <ul class="tools">
+          <li>Typescript</li>
+          <li>React</li>
+          <li>Svelte</li>
+          <li>Angular</li>
+          <li>Jest</li>
+          <li>Storybook</li>
+        </ul>
+        <ul class="details">
+          <li>Created UI-Component library for other dev teams at the provincial government.</li>
+          <li>Designed and developed core services made available to other teams.</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <header>
+          <h3>Sr. Software Developer <span class="date">12/2018 to 07/2020</span></h3>
+          <h4>CenturyLink <span class="location">Edmonton</span></h4>
+        </header>
+        <p>
+
+        </p>
+        <ul class="tools">
+          <li>Java</li>
+          <li>Spring Boot</li>
+          <li>AngularJS</li>
+          <li>Python</li>
+          <li>Cypress</li>
+          <li>Docker</li>
+          <li>MongoDB</li>
+        </ul>
+        <ul class="details">
+          <li>Helped to add disaster recovery functionality allowing for system recovery to CenturyLink, AWS or Azure cloud instances.</li>
+          <li>Worked on Cloud Application Manager analytics backend and rewrote the testing component to allow for faster and selective testing.</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <header>
+          <h3>Software Developer (1 year contract) <span class="date">07/2017 to 08/2018</span></h3>
+          <h4>Alberta College of Pharmacists <span class="location">Edmonton</span></h4>
+        </header>
+        <ul class="tools">
+          <li>Elm</li>
+          <li>Node.js</li>
+          <li>AngularJS</li>
+          <li>ServiceNow</li>
+          <li>MSSQL</li>
+        </ul>
+        <ul class="details">
+          <li>Identified and fixed application usability and security deficiencies.</li>
+          <li>Created UI designs for next version of the application.</li>
+          <li>Developed Elm application to export ServiceNow data to Quickbooks .iif format.</li>
+          <li>Implemented data migration CLI that optimized existing migration times to ServiceNow from over 5 hours to a few minutes.</li>
+          <li>Created Elm application to convert old quickbook data type to csv files</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <header>
+          <h3>Software Developer <em>(1 month contract)</em> <span class="date">07/2017 to 08/2017</span></h3>
+          <h4>Ledcor <span class="location">Edmonton</span></h4>
+        </header>
+        <ul class="tools">
+          <li>AngularJS</li>
+          <li>Gulp</li>
+        </ul>
+        <ul class="details">
+          <li>Created a deployment system that decreased deployment time from 10 minutes to a few seconds.</li>
+          <li>Reduced total application size by ~90%.</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <header>
+          <h3>Sr. Software Developer <span class="date">04/2014 to 05/2016</span></h3>
+          <h4>Showbie <span class="location">Edmonton</span></h4>
+        </header>
+        <ul class="tools">
+          <li>Ember JS</li>
+          <li>Go</li>
+        </ul>
+        <ul class="details">
+          <li>Developed web application replicating the existing iOS application for the web.</li>
+          <li>Created web application which allowed school districts to manage teacher licenses.</li>
+          <li>Built Go utility to convert .po files supplied by the translating service to the custom locale format required for Android, web and iOS.        </ul></li>
+      </section>
+
+      <section class="job">
+        <header>
+          <h3>Software Developer | Architect <span class="date">2011 to 2012</span></h3>
+          <h4>Mitremedia <span class="location">Edmonton</span></h4>
+        </header>
+        <ul class="tools">
+          <li>Ruby on Rails</li>
+          <li>Nginx</li>
+          <li>MySql</li>
+          <li>PHP</li>
+        </ul>
+        <ul class="details">
+          <li>Optimized web applications created by bought-out companies (reduced response times from > 2min to less than 5 seconds).</li>
+          <li>Server and deployment setup for existing applications.</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <header>
+          <h3>Android Developer | Architect <span class="date">2010 to 2011</span></h3>
+          <h4>Drivewyze <span class="location">Edmonton</span></h4>
+        </header>
+        <ul class="tools">
+          <li>Java</li>
+          <li>Android</li>
+          <li>Sqlite3</li>
+        </ul>
+        <ul class="details">
+          <li>Promoted to Architect after less than a year.</li>
+          <li>Designed and developed Android application allowing semi drivers to receive bypass notifications from weigh stations.</li>
+          <li>Responsible for creating and documenting logic for mobile devices and backend API.</li>
+          <li>UI design for all mobile platforms</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <header>
+          <h3>Full-stack Developer <span class="date">2010</span></h3>
+          <h4>Minigroup <span class="location">Calgary</span></h4>
+        </header>
+        <ul class="tools">
+          <li>Ruby on Rails</li>
+          <li>jQuery</li>
+          <li>MySql</li>
+        </ul>
+        <ul class="details">
+          <li>Worked on the backend server logic and frontend jQuery</li>
+          <li>Created search module to allow users to find notes, links and/or assets</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <header>
+          <h3>Web Developer <em>(contract)</em> <span class="date">2008 to 2010</span></h3>
+          <h4>Zedi <span class="location">Edmonton</span></h4>
+        </header>
+        <ul class="tools">
+          <li>jQuery</li>
+          <li>ASP.NET</li>
+          <li>Oracle</li>
+        </ul>
+        <ul class="details">
+          <li>Successfully completed a scalability project which gave the site the ability to handle increased user load.</li>
+          <li>Completed the SCADA drag n’ drop interface that provided users that ability to monitor various on-site sensors.</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <header>
+          <h3>System Analyst II <span class="date">2005-2007</span></h3>
+          <h4>Alberta Education <span class="location">Edmonton</span></h4>
+        </header>
+        <ul class="tools">
+          <li>ASP.NET</li>
+          <li>VB.NET</li>
+          <li>MSSQL</li>
+        </ul>
+        <ul class="details">
+          <li>Created web application that allowed special requests to be made and processed online.</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <header>
+          <h3>Software Developer <em>(4 month internship)</em> <span class="date">2005</span></h3>
+          <h4>Alberta Education <span class="location">Edmonton</span></h4>
+        </header>
+        <ul class="tools">
+          <li>VB.NET</li>
+          <li>Win32</li>
+          <li>MSSQL</li>
+        </ul>
+        <ul class="details">
+          <li>Developed in-house application that allowed flagged exams with scan errors and allowed them to be corrected online instead of manually.</li>
+          <li>Increased the speed of the process scan errors more than 100 times.</li>
+        </ul>
+      </section>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Udacity Intro to Self Driving Cars</li>
+        <li>Udacity Android Developer Nanodegree</li>
+        <li>Northern Alberta Institute of Technology</li>
+        <li>University of Alberta: BSc Chemistry with Specialization</li>
+      </ul>
+    </section>
+  </main>
+
+  <aside>
+    <section id="skills">
+      <h2>Skills</h2>
+      <dl>
+        <dt>Svelte</dt>
+        <dd><progress value="85" max="100" /></dd>
+      </dl>
+      <dl>
+        <dt>React</dt>
+        <dd><progress value="70" max="100" /></dd>
+      </dl>
+      <dl>
+        <dt>Typescript</dt>
+        <dd><progress value="80" max="100" /></dd>
+      </dl>
+      <dl>
+        <dt>Elm</dt>
+        <dd><progress value="60" max="100" /></dd>
+      </dl>
+      <dl>
+        <dt>Elixir</dt>
+        <dd><progress value="40" max="100" /></dd>
+      </dl>
+      <dl>
+        <dt>Phoenix</dt>
+        <dd><progress value="40" max="100" /></dd>
+      </dl>
+      <dl>
+        <dt>Go</dt>
+        <dd><progress value="70" max="100" /></dd>
+      </dl>
+      <dl>
+        <dt>MySql</dt>
+        <dd><progress value="70" max="100" /></dd>
+      </dl>
+      <dl>
+        <dt>PostgreSql</dt>
+        <dd><progress value="60" max="100" /></dd>
+      </dl>
+    </section>
+  </aside>
+
+  <footer>
+
+  </footer>
+</body>
+
 </html>

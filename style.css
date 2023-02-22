@@ -1,0 +1,180 @@
+html, body {
+  font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+
+  --color-primary: #1260CC;
+}
+
+body {
+  margin: 0;
+  border-top: 10px solid #000;
+  max-width: 800px;
+  margin: auto;
+  padding: 0 1rem 1rem;
+  
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: minmax(40ch, 3fr) 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header"
+    "main sidebar"
+    "footer footer";
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+#my-info {
+  grid-area: header;
+  text-align: center;
+  padding: 1rem;
+}
+
+a {
+  color: #000;
+}
+
+#my-info address a {
+  display: block;
+  text-decoration: none;
+  font-style: normal;
+  color: #999;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+h2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  align-items: center;
+  white-space: nowrap;
+  line-height: 1.2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+em {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+h2::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #333;
+}
+
+section#summary {
+  margin-bottom: 2rem;
+}
+
+/** Job **/
+section.job {
+  margin-bottom: 2rem;
+}
+
+section.job :is(h3, h4) {
+  margin: 0.25rem 0;
+}
+section.job .date {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+section.job .location {
+  font-weight: 400;
+}
+section.job .location::before {
+  content: "- ;
+}
+section.job .details li {
+  margin-bottom: 0.25rem;  
+}
+
+section.job ul {
+  margin: 0;
+}
+
+section.job p {
+  margin-top: 0.5rem;
+}
+
+section.job .tools {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+section.job .tools li {
+  list-style-type: none;
+  display: inline;
+  background: #ddd;
+  padding: 0.25rem 0.4rem;
+  border-radius: 8px;
+  font-size: 0.8em;
+}
+
+section#skills :where(dl, dt, dd) {
+  padding: 0;
+  margin: 0;
+}
+
+section#skills dd {
+  margin-bottom: 1rem;
+}
+
+section#skills dd {
+  line-height: 4px;
+}
+
+section#skills progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 4px;
+  width: 100%;
+  background: #eee;
+  -webkit-background: #eee;
+  border: none;
+}
+
+::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+section#skills progress::-moz-progress-bar {
+  background: #444;
+}
+section#skills progress::-webkit-progress-value {
+  background: #444;
+}
+
+@media (max-width: 639px) {
+  body {
+    display: block;
+  }
+}
+
+@media print {
+  body {
+    display: block;
+  }
+  progress {
+    display: none;
+  }
+  dl {
+    display: inline-block;
+  }
+  section.job {
+    break-inside: avoid;
+  }
+}
