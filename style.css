@@ -1,8 +1,6 @@
 html, body {
   font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-
-  --color-primary: #1260CC;
 }
 
 body {
@@ -75,7 +73,7 @@ h2::after {
   background: #333;
 }
 
-section#summary {
+section#summary, section#projects {
   margin-bottom: 2rem;
 }
 
@@ -123,6 +121,8 @@ section.job .tools li {
   font-size: 0.8em;
 }
 
+/* skills */
+
 section#skills :where(dl, dt, dd) {
   padding: 0;
   margin: 0;
@@ -147,6 +147,20 @@ section#skills progress {
   border: none;
 }
 
+/* projects */
+
+section#projects dt {
+  font-weight: bold;
+}
+section#projects dd {
+  margin-bottom: 0.5rem;
+}
+section#projects em {
+  color: #333;
+}
+
+/* progress bar */
+
 ::-webkit-progress-bar {
   background-color: #eee;
 }
@@ -168,13 +182,13 @@ section#skills progress::-webkit-progress-value {
   body {
     display: block;
   }
-  dd, progress {
+  section#skills :where(dd, progress) {
     display: none;
   }
-  dt {
+  section#skills dt {
     display: inline;
   }
-  section.job, section#skills, section#education {
+  section.job, section#skills, section#education, section#projects {
     break-inside: avoid;
   }
 }
