@@ -4,8 +4,28 @@ html, body {
 }
 
 body {
+  --color-background: #fff;
+  --color-text: #111;
+  --color-gray-1: #333;
+  --color-gray-2: #999;
+  --color-gray-3: #eee;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-background: #111;
+    --color-text: #eee;
+    --color-gray-1: #eee;
+    --color-gray-2: #999;
+    --color-gray-3: #333;
+  }
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
   margin: 0;
-  border-top: 10px solid #000;
+  border-top: 10px solid var(--color-text);
   max-width: 800px;
   margin: auto;
   padding: 0 1rem 1rem;
@@ -30,19 +50,24 @@ aside {
 
 #my-info {
   grid-area: header;
-  text-align: center;
-  padding: 1rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
-  color: #000;
+  color: var(--color-text);
+}
+
+#my-info address {
+  text-align: right;
 }
 
 #my-info address a {
   display: block;
   text-decoration: none;
   font-style: normal;
-  color: #999;
+  color: var(--color-gray-2);
 }
 
 h1 {
@@ -70,7 +95,7 @@ h2::after {
   content: "";
   flex: 1;
   height: 1px;
-  background: #333;
+  background: var(--color-gray-1);
 }
 
 section#summary, section#projects {
@@ -110,6 +135,7 @@ section.job p {
 section.job .tools {
   padding: 0;
   margin: 1rem 0;
+  color: #111;
 }
 
 section.job .tools li {
@@ -142,8 +168,8 @@ section#skills progress {
   appearance: none;
   height: 4px;
   width: 100%;
-  background: #eee;
-  -webkit-background: #eee;
+  background: var(--color-gray-3);
+  -webkit-background: var(--color-gray-3);
   border: none;
 }
 
@@ -156,20 +182,20 @@ section#projects dd {
   margin-bottom: 0.5rem;
 }
 section#projects em {
-  color: #333;
+  color: var(--color-gray-1);
 }
 
 /* progress bar */
 
 ::-webkit-progress-bar {
-  background-color: #eee;
+  background-color: var(--color-gray-2);
 }
 
 section#skills progress::-moz-progress-bar {
-  background: #444;
+  background: var(--color-gray-1);
 }
 section#skills progress::-webkit-progress-value {
-  background: #444;
+  background: var(--color-gray-1);
 }
 
 @media (max-width: 639px) {
