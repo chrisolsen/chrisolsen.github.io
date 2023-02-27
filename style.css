@@ -140,9 +140,10 @@ section.job .tools {
 
 section.job .tools li {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   background: #ddd;
   padding: 0.25rem 0.4rem;
+  margin-bottom: 0.5rem;
   border-radius: 8px;
   font-size: 0.8em;
 }
@@ -201,6 +202,10 @@ section#skills progress::-webkit-progress-value {
 @media (max-width: 639px) {
   body {
     display: block;
+  }
+
+  h1 {
+    font-size: 1.5rem;
   }
 }
 
