@@ -12,27 +12,27 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 
 ## Work History
 
-### Full-stack Developer — *Jul 2026 – Oct 2026*
+### Sr. Software Developer — *Jul 2026 – Oct 2026*
 
 **Government of Alberta**, Edmonton
 
 *C#, Angular*
 
-- Completed the ABI report module for the ARLO project
+- Completed the ABI report front-end and back-end API for the ARLO project, allowing PowerBi reports to be served.
 
 ### Sr. Software Developer (Team Lead) — *Sep 2020 – Jul 2026*
 
 **Government of Alberta**, Edmonton
 
-*Typescript, React, Svelte, Angular*
+*Typescript, Svelte, React, Angular*
 
-- Designed migration path for v2.0 updates
+- Designed migration path for v2.0 updates.
 - Ensure alignment with organizational goals and user needs.
-- Act as the lead developer, overseeing and reviewing code, and tackling the most complex patterns and components.
-- Helps solve complex technical challenges and ensures solutions are scalable, robust, and maintainable.
+- Acted as the Lead Developer and Architect, overseeing and reviewing code, and tackling the most complex patterns and components.
+- Helped solve complex technical challenges and ensures solutions are scalable, robust, and maintainable.
 - Primary developer for the UI Component library (design.alberta.ca) for dev teams within the provincial government.
 - Designed and developed core services made available to other teams.
-- Responsible for initiating the creation of the UI team
+- Responsible for initiating the creation of the UI team.
 
 ### Sr. Software Developer — *Dec 2018 – Jul 2020*
 
@@ -53,7 +53,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 - Created UI designs for next version of the application.
 - Developed Elm application to export ServiceNow data to Quickbooks .iif format.
 - Implemented data migration CLI that optimized existing migration times to ServiceNow from over 5 hours to a few minutes.
-- Created Elm application to convert old quickbook data type to csv files
+- Created Elm application to convert old quickbook data type to csv files.
 
 ### Software Developer (1 month contract) — *Jul 2017 – Aug 2017*
 
@@ -92,7 +92,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 - Promoted to Architect after less than a year.
 - Designed and developed Android application allowing semi drivers to receive bypass notifications from weigh stations.
 - Responsible for creating and documenting logic for mobile devices and backend API.
-- UI design for all mobile platforms
+- UI design for all mobile platforms.
 
 ### Full-stack Developer — *2010*
 
@@ -100,8 +100,8 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 
 *Ruby on Rails, jQuery, MySql*
 
-- Worked on the backend server logic and frontend jQuery
-- Created search module to allow users to find notes, links and/or assets
+- Worked on the backend server logic and frontend jQuery.
+- Created search module to allow users to find notes, links and/or assets.
 
 ### Web Developer (contract) — *2008 – 2010*
 

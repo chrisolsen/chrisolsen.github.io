@@ -23,13 +23,13 @@
   "work": [
     {
       "name": "Government of Alberta",
-      "position": "Full-stack Developer",
+      "position": "Sr. Software Developer",
       "location": "Edmonton",
       "startDate": "2026-07",
       "endDate": "2026-10",
       "keywords": ["C#", "Angular"],
       "highlights": [
-        "Completed the ABI report module for the ARLO project"
+        "Completed the ABI report front-end and back-end API for the ARLO project, allowing PowerBi reports to be served."
       ]
     },
     {
@@ -38,15 +38,15 @@
       "location": "Edmonton",
       "startDate": "2020-09",
       "endDate": "2026-07",
-      "keywords": ["Typescript", "React", "Svelte", "Angular"],
+      "keywords": ["Typescript", "Svelte", "React", "Angular"],
       "highlights": [
-        "Designed migration path for v2.0 updates",
+        "Designed migration path for v2.0 updates.",
         "Ensure alignment with organizational goals and user needs.",
-        "Act as the lead developer, overseeing and reviewing code, and tackling the most complex patterns and components.",
-        "Helps solve complex technical challenges and ensures solutions are scalable, robust, and maintainable.",
+        "Acted as the Lead Developer and Architect, overseeing and reviewing code, and tackling the most complex patterns and components.",
+        "Helped solve complex technical challenges and ensures solutions are scalable, robust, and maintainable.",
         "Primary developer for the UI Component library (design.alberta.ca) for dev teams within the provincial government.",
         "Designed and developed core services made available to other teams.",
-        "Responsible for initiating the creation of the UI team"
+        "Responsible for initiating the creation of the UI team."
       ]
     },
     {
@@ -73,7 +73,7 @@
         "Created UI designs for next version of the application.",
         "Developed Elm application to export ServiceNow data to Quickbooks .iif format.",
         "Implemented data migration CLI that optimized existing migration times to ServiceNow from over 5 hours to a few minutes.",
-        "Created Elm application to convert old quickbook data type to csv files"
+        "Created Elm application to convert old quickbook data type to csv files."
       ]
     },
     {
@@ -124,7 +124,7 @@
         "Promoted to Architect after less than a year.",
         "Designed and developed Android application allowing semi drivers to receive bypass notifications from weigh stations.",
         "Responsible for creating and documenting logic for mobile devices and backend API.",
-        "UI design for all mobile platforms"
+        "UI design for all mobile platforms."
       ]
     },
     {
@@ -135,8 +135,8 @@
       "endDate": "2010",
       "keywords": ["Ruby on Rails", "jQuery", "MySql"],
       "highlights": [
-        "Worked on the backend server logic and frontend jQuery",
-        "Created search module to allow users to find notes, links and/or assets"
+        "Worked on the backend server logic and frontend jQuery.",
+        "Created search module to allow users to find notes, links and/or assets."
       ]
     },
     {
