@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "devDependencies": {
+    "docx": "^9.15.0",
     "jsonresume-theme-pro": "^0.2.0",
     "puppeteer": "^25.16.0",
     "resumed": "^7.1.0"

@@ -2,20 +2,7 @@
 // Usage: node scripts/to-markdown.js resume.json > README.md
 
 import { readFileSync } from 'node:fs';
-
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-
-function formatDate(date) {
-  if (!date) return 'Present';
-  const [year, month] = date.split('-');
-  return month ? `${MONTHS[Number(month) - 1]} ${year}` : year;
-}
-
-function dateRange(start, end) {
-  const from = formatDate(start);
-  const to = formatDate(end);
-  return from === to ? from : `${from} – ${to}`;
-}
+import { dateRange } from './dates.js';
 
 function link(text, url) {
   return url ? `[${text}](${url})` : text;
