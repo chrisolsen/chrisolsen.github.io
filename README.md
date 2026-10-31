@@ -1,11 +1,10 @@
 # Chris Olsen
 
-[github.com/chrisolsen](https://github.com/chrisolsen) | [chris@chrisolsen.org](mailto:chris@chrisolsen.org) | [+1 780-887-2008](tel:+1780-887-2008)
+[github.com/chrisolsen](https://github.com/chrisolsen) | [chris@chrisolsen.org](mailto:chris@chrisolsen.org) | [+1 780-887-2008](tel:+17808872008)
 
-## Why hire me?
+## Summary
 
-With over 15 years of experience in web development and architecture, I bring a proven ability to build robust, scalable, and user-friendly solutions. I’ve led projects end-to-end, bridging the gap between business goals and technical execution, and consistently delivering high-performance applications.
-Whether writing clean code, designing system architecture, or guiding teams, I focus on creating solutions that are efficient, maintainable, and aligned with long-term goals. I bring both technical depth and strategic insight to every project.
+With over 15 years of experience in web development and architecture, I bring a proven ability to build robust, scalable, and user-friendly solutions. I’ve led projects end-to-end, bridging the gap between business goals and technical execution, and consistently delivering high-performance applications. Whether writing clean code, designing system architecture, or guiding teams, I focus on creating solutions that are efficient, maintainable, and aligned with long-term goals. I bring both technical depth and strategic insight to every project.
 
 ## Skills
 
@@ -13,7 +12,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 
 ## Work History
 
-### Full-stack Developer — *07/2026 to 10/2026*
+### Full-stack Developer — *Jul 2026 – Oct 2026*
 
 **Government of Alberta**, Edmonton
 
@@ -21,7 +20,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 
 - Completed the ABI report module for the ARLO project
 
-### Sr. Software Developer (Team Lead) — *09/2020 to 7/2026*
+### Sr. Software Developer (Team Lead) — *Sep 2020 – Jul 2026*
 
 **Government of Alberta**, Edmonton
 
@@ -31,11 +30,11 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 - Ensure alignment with organizational goals and user needs.
 - Act as the lead developer, overseeing and reviewing code, and tackling the most complex patterns and components.
 - Helps solve complex technical challenges and ensures solutions are scalable, robust, and maintainable.
-- Primary developer for the [UI Component](https://design.alberta.ca/) library for dev teams within the provincial government.
+- Primary developer for the UI Component library (design.alberta.ca) for dev teams within the provincial government.
 - Designed and developed core services made available to other teams.
 - Responsible for initiating the creation of the UI team
 
-### Sr. Software Developer — *12/2018 to 07/2020*
+### Sr. Software Developer — *Dec 2018 – Jul 2020*
 
 **CenturyLink**, Edmonton
 
@@ -44,7 +43,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 - Helped to add disaster recovery functionality allowing for system recovery to CenturyLink, AWS or Azure cloud instances.
 - Worked on Cloud Application Manager analytics backend and rewrote the testing component to allow for faster and selective testing.
 
-### Software Developer *(1 year contract)* — *07/2017 to 08/2018*
+### Software Developer (1 year contract) — *Jul 2017 – Aug 2018*
 
 **Alberta College of Pharmacists**, Edmonton
 
@@ -56,7 +55,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 - Implemented data migration CLI that optimized existing migration times to ServiceNow from over 5 hours to a few minutes.
 - Created Elm application to convert old quickbook data type to csv files
 
-### Software Developer *(1 month contract)* — *07/2017 to 08/2017*
+### Software Developer (1 month contract) — *Jul 2017 – Aug 2017*
 
 **Ledcor**, Edmonton
 
@@ -65,7 +64,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 - Created a deployment system that decreased deployment time from 10 minutes to a few seconds.
 - Reduced total application size by ~90%.
 
-### Sr. Software Developer — *04/2014 to 05/2016*
+### Sr. Software Developer — *Apr 2014 – May 2016*
 
 **Showbie**, Edmonton
 
@@ -75,7 +74,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 - Created web application which allowed school districts to manage teacher licenses.
 - Built Go utility to convert .po files supplied by the translating service to the custom locale format required for Android, web and iOS.
 
-### Software Developer | Architect — *2011 to 2012*
+### Software Developer | Architect — *2011 – 2012*
 
 **Mitremedia**, Edmonton
 
@@ -84,7 +83,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 - Optimized web applications created by bought-out companies (reduced response times from > 2min to less than 5 seconds).
 - Server and deployment setup for existing applications.
 
-### Android Developer | Architect — *2010 to 2011*
+### Android Developer | Architect — *2010 – 2011*
 
 **Drivewyze**, Edmonton
 
@@ -104,7 +103,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 - Worked on the backend server logic and frontend jQuery
 - Created search module to allow users to find notes, links and/or assets
 
-### Web Developer *(contract)* — *2008 to 2010*
+### Web Developer (contract) — *2008 – 2010*
 
 **Zedi**, Edmonton
 
@@ -113,7 +112,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 - Successfully completed a scalability project which gave the site the ability to handle increased user load.
 - Completed the SCADA drag n’ drop interface that provided users that ability to monitor various on-site sensors.
 
-### System Analyst II — *2005-2007*
+### System Analyst II — *2005 – 2007*
 
 **Alberta Education**, Edmonton
 
@@ -121,7 +120,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 
 - Created web application that allowed special requests to be made and processed online.
 
-### Software Developer *(4 month internship)* — *2005*
+### Software Developer (4 month internship) — *2005*
 
 **Alberta Education**, Edmonton
 
@@ -139,7 +138,7 @@ Typescript · Go · Svelte · React · Elm · MySql · PostgreSql
 
 ## Education
 
-- Udacity Intro to Self Driving Cars
-- Udacity Android Developer Nanodegree
+- Udacity: Intro to Self Driving Cars
+- Udacity: Nanodegree Android Developer
 - Northern Alberta Institute of Technology
 - University of Alberta: BSc Chemistry with Specialization

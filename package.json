@@ -1,0 +1,13 @@
+{
+  "name": "resume",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "jsonresume-theme-pro": "^0.2.0",
+    "puppeteer": "^25.16.0",
+    "resumed": "^7.1.0"
+  },
+  "allowScripts": {
+    "puppeteer@25.16.0": true
+  }
+}

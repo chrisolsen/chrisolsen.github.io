@@ -1,0 +1,231 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Chris Olsen",
+    "image": "https://avatars.githubusercontent.com/u/41582",
+    "email": "chris@chrisolsen.org",
+    "phone": "+1 780-887-2008",
+    "url": "https://chrisolsen.github.io",
+    "summary": "With over 15 years of experience in web development and architecture, I bring a proven ability to build robust, scalable, and user-friendly solutions. I’ve led projects end-to-end, bridging the gap between business goals and technical execution, and consistently delivering high-performance applications. Whether writing clean code, designing system architecture, or guiding teams, I focus on creating solutions that are efficient, maintainable, and aligned with long-term goals. I bring both technical depth and strategic insight to every project.",
+    "location": {
+      "city": "Edmonton",
+      "region": "Alberta",
+      "countryCode": "CA"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "chrisolsen",
+        "url": "https://github.com/chrisolsen"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Government of Alberta",
+      "position": "Full-stack Developer",
+      "location": "Edmonton",
+      "startDate": "2026-07",
+      "endDate": "2026-10",
+      "keywords": ["C#", "Angular"],
+      "highlights": [
+        "Completed the ABI report module for the ARLO project"
+      ]
+    },
+    {
+      "name": "Government of Alberta",
+      "position": "Sr. Software Developer (Team Lead)",
+      "location": "Edmonton",
+      "startDate": "2020-09",
+      "endDate": "2026-07",
+      "keywords": ["Typescript", "React", "Svelte", "Angular"],
+      "highlights": [
+        "Designed migration path for v2.0 updates",
+        "Ensure alignment with organizational goals and user needs.",
+        "Act as the lead developer, overseeing and reviewing code, and tackling the most complex patterns and components.",
+        "Helps solve complex technical challenges and ensures solutions are scalable, robust, and maintainable.",
+        "Primary developer for the UI Component library (design.alberta.ca) for dev teams within the provincial government.",
+        "Designed and developed core services made available to other teams.",
+        "Responsible for initiating the creation of the UI team"
+      ]
+    },
+    {
+      "name": "CenturyLink",
+      "position": "Sr. Software Developer",
+      "location": "Edmonton",
+      "startDate": "2018-12",
+      "endDate": "2020-07",
+      "keywords": ["Java", "Spring Boot", "AngularJS", "Python", "Cypress", "Docker", "MongoDB"],
+      "highlights": [
+        "Helped to add disaster recovery functionality allowing for system recovery to CenturyLink, AWS or Azure cloud instances.",
+        "Worked on Cloud Application Manager analytics backend and rewrote the testing component to allow for faster and selective testing."
+      ]
+    },
+    {
+      "name": "Alberta College of Pharmacists",
+      "position": "Software Developer (1 year contract)",
+      "location": "Edmonton",
+      "startDate": "2017-07",
+      "endDate": "2018-08",
+      "keywords": ["Elm", "Node.js", "AngularJS", "ServiceNow", "MSSQL"],
+      "highlights": [
+        "Identified and fixed application usability and security deficiencies.",
+        "Created UI designs for next version of the application.",
+        "Developed Elm application to export ServiceNow data to Quickbooks .iif format.",
+        "Implemented data migration CLI that optimized existing migration times to ServiceNow from over 5 hours to a few minutes.",
+        "Created Elm application to convert old quickbook data type to csv files"
+      ]
+    },
+    {
+      "name": "Ledcor",
+      "position": "Software Developer (1 month contract)",
+      "location": "Edmonton",
+      "startDate": "2017-07",
+      "endDate": "2017-08",
+      "keywords": ["AngularJS", "Gulp"],
+      "highlights": [
+        "Created a deployment system that decreased deployment time from 10 minutes to a few seconds.",
+        "Reduced total application size by ~90%."
+      ]
+    },
+    {
+      "name": "Showbie",
+      "position": "Sr. Software Developer",
+      "location": "Edmonton",
+      "startDate": "2014-04",
+      "endDate": "2016-05",
+      "keywords": ["Ember JS", "Go"],
+      "highlights": [
+        "Developed web application replicating the existing iOS application for the web.",
+        "Created web application which allowed school districts to manage teacher licenses.",
+        "Built Go utility to convert .po files supplied by the translating service to the custom locale format required for Android, web and iOS."
+      ]
+    },
+    {
+      "name": "Mitremedia",
+      "position": "Software Developer | Architect",
+      "location": "Edmonton",
+      "startDate": "2011",
+      "endDate": "2012",
+      "keywords": ["Ruby on Rails", "Nginx", "MySql", "PHP"],
+      "highlights": [
+        "Optimized web applications created by bought-out companies (reduced response times from > 2min to less than 5 seconds).",
+        "Server and deployment setup for existing applications."
+      ]
+    },
+    {
+      "name": "Drivewyze",
+      "position": "Android Developer | Architect",
+      "location": "Edmonton",
+      "startDate": "2010",
+      "endDate": "2011",
+      "keywords": ["Java", "Android", "Sqlite3"],
+      "highlights": [
+        "Promoted to Architect after less than a year.",
+        "Designed and developed Android application allowing semi drivers to receive bypass notifications from weigh stations.",
+        "Responsible for creating and documenting logic for mobile devices and backend API.",
+        "UI design for all mobile platforms"
+      ]
+    },
+    {
+      "name": "Minigroup",
+      "position": "Full-stack Developer",
+      "location": "Calgary",
+      "startDate": "2010",
+      "endDate": "2010",
+      "keywords": ["Ruby on Rails", "jQuery", "MySql"],
+      "highlights": [
+        "Worked on the backend server logic and frontend jQuery",
+        "Created search module to allow users to find notes, links and/or assets"
+      ]
+    },
+    {
+      "name": "Zedi",
+      "position": "Web Developer (contract)",
+      "location": "Edmonton",
+      "startDate": "2008",
+      "endDate": "2010",
+      "keywords": ["jQuery", "ASP.NET", "Oracle"],
+      "highlights": [
+        "Successfully completed a scalability project which gave the site the ability to handle increased user load.",
+        "Completed the SCADA drag n’ drop interface that provided users that ability to monitor various on-site sensors."
+      ]
+    },
+    {
+      "name": "Alberta Education",
+      "position": "System Analyst II",
+      "location": "Edmonton",
+      "startDate": "2005",
+      "endDate": "2007",
+      "keywords": ["ASP.NET", "VB.NET", "MSSQL"],
+      "highlights": [
+        "Created web application that allowed special requests to be made and processed online."
+      ]
+    },
+    {
+      "name": "Alberta Education",
+      "position": "Software Developer (4 month internship)",
+      "location": "Edmonton",
+      "startDate": "2005",
+      "endDate": "2005",
+      "keywords": ["VB.NET", "Win32", "MSSQL"],
+      "highlights": [
+        "Developed in-house application that allowed flagged exams with scan errors and allowed them to be corrected online instead of manually.",
+        "Increased the speed of the process scan errors more than 100 times."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Woddy",
+      "url": "https://web.archive.org/web/20141217093507/http://woddy.com/",
+      "description": "Workout of the day app tracker.",
+      "keywords": ["Elm", "Go", "AppEngine"]
+    },
+    {
+      "name": "MathOps",
+      "url": "https://apkgk.com/org.chrisolsen.mathops",
+      "description": "Allows kids to practice their basic math skills and track their progress over time.",
+      "keywords": ["Android"]
+    },
+    {
+      "name": "LeagueSmart",
+      "url": "https://web.archive.org/web/20150909011828/http://leaguesmart.com/",
+      "description": "Created game schedules and provided score/stat entry.",
+      "keywords": ["RubyOnRails", "MySql"]
+    },
+    {
+      "name": "Onlinelisting",
+      "description": "Allowed real-estate agents to create personal sites.",
+      "keywords": ["RubyOnRails", "MySql"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Udacity",
+      "area": "Intro to Self Driving Cars"
+    },
+    {
+      "institution": "Udacity",
+      "studyType": "Nanodegree",
+      "area": "Android Developer"
+    },
+    {
+      "institution": "Northern Alberta Institute of Technology"
+    },
+    {
+      "institution": "University of Alberta",
+      "studyType": "BSc",
+      "area": "Chemistry with Specialization"
+    }
+  ],
+  "skills": [
+    { "name": "Typescript" },
+    { "name": "Go" },
+    { "name": "Svelte" },
+    { "name": "React" },
+    { "name": "Elm" },
+    { "name": "MySql" },
+    { "name": "PostgreSql" }
+  ]
+}
