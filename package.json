@@ -5,6 +5,7 @@
   "devDependencies": {
     "docx": "^9.15.0",
     "jsonresume-theme-pro": "^0.2.0",
+    "marked": "^18.1.2",
     "puppeteer": "^25.16.0",
     "resumed": "^7.1.0"
   },
